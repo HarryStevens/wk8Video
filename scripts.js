@@ -19,7 +19,8 @@ function setNav() {
 			$(".button.active").removeClass("active");
 			$(this).addClass("active");
 		}
-$("img.active").show();
+		
+	$("img.active").show();
 
 		
 	});
