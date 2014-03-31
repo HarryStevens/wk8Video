@@ -1,3 +1,53 @@
-body {
-	
+h1 {
+	display: table;
+	margin: 0 auto;
+	padding: 5px;
+}
+.main-content {
+	width: 960px;
+	height: 600px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	display: table;
+	margin: 0 auto;
+}
+.nav-holder {
+	width: 12%;
+	height: 100%;
+	float: left;
+}
+.image-holder {
+	margin-top: 4px;
+	width: 88%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.image-holder img {
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.button {
+	color: blue;
+	cursor: pointer;
+	width: 100px;
+	padding: 4px;
+	margin: 4px;
+}
+.button:hover {
+	color: orange;
+}
+.button.active {
+	background-color: blue;
+	color: white;
+	cursor: default;
+}
+button.active:hover {
+	color: white;
+}
+button.active img {
+	display: inline;
 }
